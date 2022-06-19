@@ -1,0 +1,55 @@
+div{
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+/*Position static: No podemos editarlo ya que es estatico*/
+.static{
+    position: static;
+    background-color: yellow;
+}
+
+/*Position relative: permite desplazar una caja respecto de su posición 
+original establecida mediante el posicionamiento original o estatico.*/
+.relative{
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+/*Position fixed : es fijo se suele usar en barras de navegacion, footer.
+Este atributo sirve para posicionar una capa con posicionamiento absoluto, 
+pero su posición final será siempre fija, es decir, aunque se desplace el 
+documento con las barras de desplazamiento del navegador, siempre aparecerá 
+en la misma posición*/
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: green;
+    z-index: 10;
+}
+/*Position absolute: se emplea para establecer de forma exacta la posición en la 
+que se muestra la caja de un elemento. La nueva posición de la caja se indica mediante 
+las propiedades top, right, bottom y left.*/
+.absolute{
+    position: absolute;
+    background-color: white;
+    bottom: 30px;
+    right: 0px;
+}
+
+.relative.contenedor{
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+}
+
+/*Position sticky:se emplea para establecer de forma exacta la posición en la que se 
+muestra la caja de un elemento. La nueva posición de la caja se indica mediante las 
+propiedades top, right, bottom y left. */
+.sticky{
+    position: sticky;
+    background-color: coral;
+    color: white;
+    top: 0px;
+}

@@ -1,0 +1,7 @@
+#elemento-1{
+    font-size: 2rem;
+}
+
+#elemento-1, #supermercado-1 {
+    color: red;
+}
