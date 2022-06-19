@@ -1,0 +1,62 @@
+/* Estilos para colores*/
+*{
+    padding: 15px;
+    margin-top: 10px;
+}
+.h1-cabeceras{
+    text-decoration: underline;
+}
+p{
+    font-size: 25px;
+}
+
+.color-predefinido-VSC{
+    color: red;
+}
+
+.color-hexadecimal{
+    color: #8093F1;
+}
+
+.color-rgb{
+    color: rgb(10, 19, 114);
+}
+.color-rgba{
+    color: rgb(10, 19, 114, 0.5);
+}
+
+/* Fondos */
+
+.fondo-color{
+    background-color: #8093F1;
+}
+
+.fondo-imagenonline{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-azul-formas-geometricas_1035-17545.jpg?w=2000);
+
+}
+.fondo-imagenlocal{
+   background-image: url("imagenes/istockphoto-1248542684-612x612.jpeg");
+}
+
+/* Tamaños */
+.ancho{
+    background-color: yellowgreen;
+    width: 100px;
+}
+
+.alto{
+    background-color: orange;
+    height: 200px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: #8093F1;
+    border-width: 2px;
+    border-radius: 50px;
+}
+
+.encabezado{
+    color: red;
+}
