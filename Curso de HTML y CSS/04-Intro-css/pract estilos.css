@@ -1,3 +1,7 @@
+*{
+    padding: 15px;
+}
+
 h1{
     color: red;
     font-size: 50px;
@@ -6,7 +10,8 @@ h1{
 /* Estoy probando los colores en css */
 p{
     color: blue;
-    font-size: 30px;
+    font-size: 25px;
+    
 }
 
 .encabezado{
@@ -23,7 +28,7 @@ p{
     color: aqua;
 }
 
-.autor, .fecha, .ubicacion, h1{
+.autor, .fecha, .ubicacion{
     text-decoration: underline;
 }
 /*
