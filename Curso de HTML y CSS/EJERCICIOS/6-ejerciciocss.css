@@ -1,0 +1,13 @@
+.boton:hover{
+    color: white;
+    background-color: green;
+}
+.hover .text::after{
+    content: 'hecho';
+}
+.boton span{
+    display: none;
+   }
+.boton:after {
+    content: 'Hecho';
+}
