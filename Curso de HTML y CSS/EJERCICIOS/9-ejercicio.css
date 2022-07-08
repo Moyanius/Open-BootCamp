@@ -1,0 +1,14 @@
+.btn-modern{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-modern:hover{
+    transform: translateX(-5px);
+    background-color: aqua;
+    color: white;
+    transition: 4s;
+    box-shadow: 5px 5px;
+}
