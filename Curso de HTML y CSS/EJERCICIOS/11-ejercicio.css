@@ -1,0 +1,20 @@
+
+
+.col {
+    background-color: cyan;
+}
+.col-sm-12 {
+    background-color: red;
+}
+.col-md-6 {
+    background-color: yellow;
+}
+.col-lg-4 {
+    background-color: green;
+}
+.col-xl-3 {
+    background-color: blue;
+}
+.col-xxl-2 {
+    background-color: pink;
+}
