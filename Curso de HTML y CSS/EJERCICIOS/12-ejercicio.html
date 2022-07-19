@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio-12</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container py-4">
+        <div class="seccion1">Seccion 1
+            <div class="bg-light p-5 rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Ejercicio 12</h1>
+                    <p class="col-md-8 fs-4">
+                        Crea un nuevo documento HTML con el título "Elementos de Interés en Bootstrap"<br>
+                        1-Utilizando la página oficial getboostrap.com, añade la última versión de Bootstrap a este
+                        documento HTML <br>
+                        2-Crea tres secciones <br>
+                        3-En la primera sección crea un Jumbotron replicando el que realizamos en el vídeo <br>
+                        -El botón de llamada a la acción debe abrir una ventana modal <br>
+                        4-En la segunda sección crea un formulario de contacto con los campos "nombre" (text),
+                        "teléfono" (number) y mensaje (textarea) <br>
+                        5-En la tercera sección crea una tarjeta con tu perfil de desarrollador/a que contenga lo
+                        siguiente <br>
+                        -Tu nombre en el título <br>
+                        -Una breve descripción <br>
+                        -Tu email en el footer br
+                    </p>
+                    <button  type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal-ejemplo">Lanzar modal desmotracion</button>
+                </button>
+                <div class="modal fade" data-bs-backdrop="static" id="modal-ejemplo">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <h4 class="modal-header">Esto es el interior de un modal</h4>
+                      <div class="modal-footer">
+                        <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                          Cerrar
+                        </button>
+                        <button class="btn btn-primary">Aceptar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="seccion2">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Telephone</label>
+                <input type="telephone" class="form-control" id="exampleFormControlInput1" placeholder="+34 6.. .. ..">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">text</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+        </div>
+        <div class="seccion3">
+            <div class="card" style="width: 17rem">
+                <div class="card-body">
+                  <h5 class="card-title">Jose Moyano</h5>
+                  <p class="card-text">Junior Developer con muchas ganas de aprender</p>
+                  
+                </div>
+                <div class="card-footer">
+                    <a href="moyanojimenezjose@gmail.com">moyanojimenezjose@gmail.com</a>
+                </div>
+                
+              </div>
+        </div>
+    </div>
+</body>
+<script>
+    var popoverTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="popover"]')
+    );
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</html>
