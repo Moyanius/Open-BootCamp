@@ -19,7 +19,7 @@ $color-main: #0075FF;
 
     &:hover {
         background-color: #ffffff;
-        color: &color-main;
+        color: $color-main;
         border: solid 1px $color-main;
         color: $color-main;
     }
@@ -58,10 +58,55 @@ $color-main: #0075FF;
 
 .icon-sm{
     i {
-        font-size: 0,75rem;
+        font-size: 0.75rem;
         color: $color-main;
         padding: 0.1rem 0.25rem;
         border-radius: 50%;
         box-shadow: 0 0 10px #00000055;
+    }
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    .icon{
+        color: $color-main;
+        font-size: 10rem;
+        text-align: center;
+    }
+    .description{
+            .title{
+                font-size: 2rem;
+                text-align: center;
+            }
+            .text{
+                color: #888;
+                font-weight: 600;
+                text-align: center;
+            }
+    }
+    .cta{
+        margin-top: 3rem;
+        color: $color-main;
+        font-weight: 600;
+        text-align: center;
+    
+    }
+}
+
+.icon-desc{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .icon{
+        color: $color-main;
+        font-size: 10rem;
+        padding: 0;
+    }
+    .title{
+        margin-top: -2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
     }
 }
