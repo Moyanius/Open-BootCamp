@@ -48,19 +48,27 @@ $color-main: #0075FF;
 }
 
 .main-menu{
+    margin-bottom: 0;
     li {
         font-size: 0.75rem;
         list-style: none;
         display: inline;
-
+        margin-right: 2rem;
+        a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 }
 
 .icon-sm{
     i {
-        font-size: 0.75rem;
+        font-size: 1.25rem;
         color: $color-main;
-        padding: 0.1rem 0.25rem;
+        padding: 0.4rem 0.65rem;
         border-radius: 50%;
         box-shadow: 0 0 10px #00000055;
     }
