@@ -7,6 +7,9 @@
     padding: 3rem;
 }
 
+html{
+    min-width: 100vw;
+}
 body{
     padding: 0;
     margin: 0;
@@ -34,11 +37,18 @@ body{
         .cta-text{
             color: components.$color-main;
         }
-        home-title{
+        .home-title{
             width: 20rem;
             font-size: 3rem;
         }
-
+        .home-description{
+            width: 300px
+        }
+        .lead-magnet{
+            .input-col{
+                max-width: 200px
+            }
+        }
     }
 }
 
@@ -84,6 +94,105 @@ body{
         }
         .image{
             max-width: 20rem;
+        }
+    }
+}
+
+.sec-benefits{
+    border-top: 1px solid #ddd;
+    .intro{
+        @extend .sec-features, .intro;
+    }
+    .benefit-cards{
+        width: 100%;
+        padding: 0 2rem 2rem 2rem;
+    }
+}
+
+.sec-kpis{
+    width: 100%;
+    background-color: components.$color-main;
+    color: white;
+    padding: 4rem;
+    .kpi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .number{
+            font-size: 3.5rem;
+            font-weight: 600;
+        }
+        .desc{
+            font-size: 0.9rem;
+            color: #ffffffaa;
+        }
+    }
+}
+
+.sec-onboarding{
+    .intro{
+        @extend .sec-features, .intro;
+    }
+    .steps{
+        padding: 0.7rem 5rem 7rem ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .step-separator{
+            flex:1;
+            border-top: 2px solid #ddd;
+            margin: 0 1rem;
+        }
+    }
+}
+
+.sec-footer-cta {
+    background-color: components.$color-footer;
+    padding: 5rem;
+    background-image: url(../assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    .footer-cta{
+        width: 50%;
+        .cta-title{
+            font-size: 2rem;
+        }
+        .cta-description{
+            font-size: 1.1rem;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .sec-onboarding{
+        .steps{
+            flex-direction: column;
+            .icon-desc{
+                .title{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .sec-footer-cta{
+        background-image: none;
+        width: 100%;
+        text-align: center;
+    }
+    .sec-benefits{
+        .intro{
+            text-align: center;
+            h3{
+                font-size: 2rem;
+            }
+        }
+    }
+    .sec-features{
+        p{
+            font-size: 1rem;
+            h3{
+                font-size: 2rem;
+            }
         }
     }
 }
