@@ -1,10 +1,10 @@
 {
-  "name": "sesion-09-getion-de-errores",
+  "name": "ejercicio_9",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "stars": "node index.js"
+    "start": "Esto no funciona"
   },
   "keywords": [],
   "author": "",

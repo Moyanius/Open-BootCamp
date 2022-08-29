@@ -14,7 +14,7 @@ try {
     const doble = miFuncion(numero)
     console.log(doble)
 } catch (e) {
-    // En caso de fallar, quiero que ejecutes esto que hay entre llaves
+    // En caso de fallar, quiero que ejecutes
     console.error(`El valor de e es: ${e}`)
     console.error("ERROR!")
 } finally {
