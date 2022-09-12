@@ -1,4 +1,4 @@
-// Foremas de importar / exportar modulos
+// Formas de importar / exportar modulos
 // 1.CommonJS - require
 // 2.Import ES6 - import
 
