@@ -28,6 +28,10 @@ class Persona {
 	getEdad() {
 		return this.#edad
 	}
+
+	setEdad(nuevaEdad) {
+		this.#edad = nuevaEdad
+	}
 }
 
 const persona = new Persona("gorka", 70)
@@ -39,8 +43,13 @@ const persona = new Persona("gorka", 70)
 //console.log(persona.#obtenEdad()) // No se puede acceder desde fuera porque esrta protegido
 //console.log(persona._isDeveloper)
 
+/////////////////////////////
 
 // Getter --> metodos que nos permiten obtener atributos/métodos privados o protegidos
 const edad = persona.getEdad()
 console.log(edad)
+
 // Setter --> metodo que nos permiten cambiar el valor de alguno de los atibutos privados o protegidos
+// Quiero cambiar la edad de la persona
+persona.setEdad(34)
+console.log(persona.getEdad())
